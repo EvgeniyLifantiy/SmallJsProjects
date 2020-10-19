@@ -1,0 +1,63 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:beige;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.add {
+    background-color: turquoise;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    position: fixed;
+    padding: 0.5rem 1rem;
+    top: 1rem;
+
+}
+
+.note {
+    background-color: white;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.note .buttons {
+    background-color: turquoise;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.note .buttons button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.note .main {
+    background-color:white;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+.note textarea {
+    outline: none;
+    border: none;
+    height: 400px;
+    width: 100%;
+}
+
+.note .hidden {
+    display: none;
+}
